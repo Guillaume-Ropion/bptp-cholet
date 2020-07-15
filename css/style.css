@@ -4,5 +4,6 @@ nav .navbar-nav li a:hover{
 nav{
   border-block-end: solid darkorange 4px 
 }
-
-
+.carousel-caption:hover{
+  color: darkorange !important;
+}
