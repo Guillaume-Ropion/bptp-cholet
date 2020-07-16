@@ -46,11 +46,7 @@ nav{
     width: 960px;
     margin: auto;
   }
-  .materiel{
-    padding-top: 50px; 
-    background-color: darkorange;
-    padding-bottom: 50px;
-  }
+
   .materiel h1{
     text-align: center;
     color: white;
@@ -114,6 +110,34 @@ nav{
   .zoneAction iframe{
     margin: auto;
   }
+
+  .Mentions{
+    text-align: center;
+  }
+  .titreService{
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    padding: 100px;
+    margin-bottom: 50px;
+  }
+  .typeDeTravail i {
+    color: darkorange;
+    font-size: 40px;
+  }
+  .typeDeTravail h1{
+    text-align: center;
+    margin-bottom: 20px
+  }
+
+
+  
+}
+  .materiel{
+    padding-top: 50px; 
+    background-color: darkorange;
+    padding-bottom: 50px;
+  }
   
   footer{
     padding-top: 30px;
@@ -126,11 +150,60 @@ nav{
   footer a{
     color: white
   }
-  .Mentions{
-    text-align: center;
-  }
- 
-
-
-  
+.col-xs-3 img{
+  width:320px;
+  margin: auto;
 }
+  .row{
+    margin: auto;
+  }
+
+  .materiel h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+  }
+  .h-divider{
+   margin: auto;
+   margin-top:5px;
+   margin-bottom:10px;
+   height:1px;
+   width:40px;
+   border-top:5px solid rgb(30, 30, 30) ;
+}
+  .materiel p{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    color: white;
+  }
+  .image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+
+.col-xs-3:hover .image {
+  opacity: 0.3;
+}
+  .hoverImageMaterial{
+    position: absolute;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    opacity: 0;
+  }
+
+.col-xs-3:hover .hoverImageMaterial {
+  opacity: 1;
+  color: white;
+  font-size: 16px;
+  padding: auto;
+  margin: auto;
+}
+  
