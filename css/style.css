@@ -5,7 +5,13 @@ nav .navbar-nav li a:hover{
 nav{
   border-block-end: solid darkorange 4px 
 }
-.slider{
+  header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+  }
+  .slider{
   margin-bottom: 50px;
   margin: auto;
   width: 960px
@@ -100,11 +106,28 @@ nav{
     margin-bottom:10px;
   }
   .zoneAction{
+    width: 960px;
+    margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
   }
   .zoneAction iframe{
     margin: auto;
+  }
+  
+  footer{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    
+    background-color: rgb(30,30,30);
+    color: white !important;
+  }
+  footer a{
+    color: white
+  }
+  .Mentions{
+    text-align: center;
   }
  
 
