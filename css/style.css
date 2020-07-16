@@ -1,9 +1,113 @@
+@media (min-width:960px){
 nav .navbar-nav li a:hover{
   color: darkorange !important;
 }
 nav{
   border-block-end: solid darkorange 4px 
 }
+.slider{
+  margin-bottom: 50px;
+  margin: auto;
+  width: 960px
+}
+.carousel-caption{
+  background-color: darkorange;
+  width: 100%;
+  margin-left: -144px;
+  margin-bottom:-20px; 
+}
 .carousel-caption:hover{
-  color: darkorange !important;
+  color: black !important;
+}
+.apropos h1{
+  text-align: center;
+}
+.textApropos{
+  width: 960px;
+  margin: auto;
+  text-align: justify;
+}
+.apropos{
+  margin-top: 50px;
+  margin-bottom: 50px;
+    
+}
+.col-xs-3 img{
+  width:320px;
+  margin: auto;
+}
+  .row{
+    width: 960px;
+    margin: auto;
+  }
+  .materiel{
+    padding-top: 50px; 
+    background-color: darkorange;
+    padding-bottom: 50px;
+  }
+  .materiel h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+  }
+  .h-divider{
+   margin: auto;
+   margin-top:5px;
+   margin-bottom:10px;
+   height:1px;
+   width:40px;
+   border-top:5px solid rgb(30, 30, 30) ;
+}
+  .materiel p{
+    text-align: center;
+    width: 960px;
+    margin: auto;
+    margin-bottom: 10px;
+    color: white;
+  }
+  .image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+
+.col-xs-3:hover .image {
+  opacity: 0.3;
+}
+  .hoverImageMaterial{
+    position: absolute;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    opacity: 0;
+  }
+
+.col-xs-3:hover .hoverImageMaterial {
+  opacity: 1;
+  color: white;
+  font-size: 16px;
+  padding: auto;
+  margin: auto;
+}
+  
+  .zoneAction h1{
+    text-align: center;
+    margin-bottom:10px;
+  }
+  .zoneAction{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .zoneAction iframe{
+    margin: auto;
+  }
+ 
+
+
+  
 }
