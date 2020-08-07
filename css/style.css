@@ -163,13 +163,9 @@ nav{
     padding: 100px;
     margin-bottom: 50px;
   }
-  .typeDeTravail i {
-    color: darkorange;
-    font-size: 40px;
-  }
-  .typeDeTravail h1{
-    text-align: center;
-    margin-bottom: 20px
+  .typeDeTravail{
+    margin: auto;
+    width: 960px;
   }
   #confidentialite {
     text-align: justify;
