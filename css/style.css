@@ -38,6 +38,48 @@ nav{
   margin-bottom: 50px;
     
 }
+  .equipe{
+    padding-top: 10px; 
+    background-color: darkorange;
+    color: white;
+    text-align: center;
+  }
+  .containerFlex{
+    display: flex;
+    width: 960px;
+    margin: auto;
+    text-align: center
+  }
+  .articleEquipe{
+    margin: 10px;
+  }
+  .articleEquipe p{
+    text-align: justify;
+  }
+  .articleEquipe img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    
+  }
+  #Services{
+    text-align: center;
+  }
+  .ContainerArticleService{
+    width: 960px;
+    display: flex;
+    margin: auto;
+    text-align: center
+  }
+  .articleService p{
+    text-align: justify;
+  }
+  .articleService h2 {
+    margin-bottom: 10px;
+  }
+  .articleService{
+    margin: 20px
+  }
 .col-xs-3 img{
   width:320px;
   margin: auto;
@@ -128,6 +170,11 @@ nav{
   .typeDeTravail h1{
     text-align: center;
     margin-bottom: 20px
+  }
+  #confidentialite {
+    text-align: justify;
+    margin: auto;
+    width: 960px;
   }
 
 
