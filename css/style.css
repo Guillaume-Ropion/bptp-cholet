@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 @media (min-width:960px) and (orientation: landscape){
 nav .navbar-nav li a:hover{
   color: darkorange !important;
@@ -229,6 +232,9 @@ nav{
     background-color: darkorange;
     padding-bottom: 50px;
   }
+  .carousel-caption {
+    background-color: darkorange; 
+}
  
   
   footer{
