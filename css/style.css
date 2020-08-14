@@ -216,8 +216,16 @@ nav{
 }
 @media (orientation: portrait) {
   nav{
-  border-block-end: solid darkorange 4px 
+  border-block-end: solid darkorange 4px;
+    font-size: 2em;
 }
+  h1 {
+    text-align: center;
+    font-size: 4em;
+  }
+  p{
+    font-size: 2em;
+  }
    .equipe{
     padding-top: 10px; 
     background-color: darkorange;
