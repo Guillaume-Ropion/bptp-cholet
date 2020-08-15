@@ -228,6 +228,12 @@ nav{
   }
   p{
     font-size: 2em;
+    text-align: justify;
+    margin: 20px;
+  }
+  h2 {
+    font-weight: bold;
+    margin: 10px;
   }
    .equipe{
     padding-top: 10px; 
