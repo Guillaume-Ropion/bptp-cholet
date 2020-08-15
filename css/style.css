@@ -235,6 +235,9 @@ nav{
     font-weight: bold;
     margin: 10px;
   }
+  h5{
+    font-size:3em;
+  }
    .equipe{
     padding-top: 10px; 
     background-color: darkorange;
